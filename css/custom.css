@@ -1,0 +1,252 @@
+.ctplloader{position: absolute;width: 100%;height: 100%;top:0;display:none; background: rgba(0, 0, 0, 0.5);z-index:9999}
+.ctplloader .loadercont{color:#fff;text-align: center;}
+
+.form-group {
+    margin-bottom: 0.3rem !important;
+}
+label.required:after {content: " *"; color: red;}
+
+/* --- datepicker --*/
+.datepicker.datepicker-dropdown{
+  min-width:250px
+}
+.datepicker .table td, .datepicker .table th{
+  border-top:none;
+  text-align: center;
+}
+
+.select2.select2-container {
+  width:100% !important;
+}
+
+.select2-selection.select2-selection--single.is-invalid {
+	border-color: #f44336;
+}
+.select2-container--default .select2-selection--single {
+    height: calc(1.9695rem + 2px);
+}
+.select2-selection.is-invalid {border-color: #dc3545;}
+
+.select2-container--default .select2-selection--single, .select2-container--default .select2-selection--multiple, .select2-container--default.select2-container--focus .select2-selection--multiple {
+  border: 1px solid #ced4da;
+}
+
+.table .select2-container--default .select2-selection--single{
+    height: calc(1.2em + .75rem);
+    line-height: 1.5;
+    padding: .12rem 0rem;
+}
+.table .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 22px;
+}
+
+.input-icon span{
+    position: absolute;
+    height: calc(1.5em + .75rem + 2px);
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    vertical-align: middle;
+}
+ 
+.input-icon.left-align span {left:20px}
+.input-icon.right-align span {right:20px}
+.input-icon.left-align input{
+  padding-left: 25px;
+}
+.input-icon.right-align input{
+  padding-right: 25px;
+}
+.custom-checkbox{
+  top:2px;
+}
+
+#loginregister{
+    position: relative;
+}
+
+#toast-container{position:sticky;z-index:1055;top:0}#toast-wrapper{position:absolute;top:0;right:0;margin:5px}#toast-container>#toast-wrapper>.toast{min-width:150px}#toast-container>#toast-wrapper>.toast>.toast-header strong{padding-right:20px}
+
+/*User Dashboard Page Styles are added here by Shashikanta*/
+.inner-banner.userDashb{
+    background: url('../../images/frontend/banner2.jpg') no-repeat center;;
+    position: relative;
+      background-size: auto;
+    background-size: cover;
+    height: 200px;
+    overflow: hidden;
+  }
+  .inner-banner.userDashb::before{
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+    content: '';
+    background: #fff;
+    transform: skew(-40deg);
+    z-index: 1;
+  }
+  .inner-banner.userDashb::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+  }
+  .userDashb .blue-strip.text-center{
+    background: transparent;
+    color: #fff;
+    padding: 15px 0;
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0px;
+  }
+  .inner-banner.userDashb h2{
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 75px;
+    z-index: 1;
+  }
+  .userDashb .blue-strip.text-center h2{
+    color: #fff;
+    font-size: 20px !important;
+    text-transform: uppercase;
+  }
+  .inner-banner-user-big-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    box-shadow: 1px 0 11px rgba(0,0,0,0.26);
+  }
+  .profileLeft .card-body h5{
+    font-size: 14px !important;
+  }
+  .userProfile.nav-tabs .nav-link{
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    margin-right: 1px;
+    color: #444;
+    padding: 5px 11px;
+    min-width: 70px;
+  }
+  .userProfile.nav-tabs .nav-link.active{
+    color: #fff;
+    background-color: #0b443f;
+    border-color: #b7b7b7;
+  }
+  .userProfile.nav-tabs .nav-link:hover{
+    border-color: #e9ecef #e9ecef #dee2e6 !important;
+    background: #0b443f;
+    color: #fff !important;
+    position: relative;
+  }
+  .usertabContent{
+    background: #f0f0f0;
+  }
+  .profile_page_sec .profileLeft .card{
+    border-top: 3px solid #0b443f;
+    margin-bottom: 15px;
+  }
+  .userQueryForm .field{
+    width: 100%;
+    display: inline-block;
+    padding-top: 15px;
+  }
+  .userQueryForm .field label{
+    width: 25%;
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+  }
+  .userQueryForm .field input, .userQueryForm .field select{
+    width: 70%;
+    float: left;
+    height: 35px;
+  }
+  .userQueryForm .field textarea{
+    width: 70%;
+    float: left;
+    height: 85px;
+    padding: 5px;
+  }
+  .userProfileView .image-upload{
+    width: 230px;
+    height: 225px;
+    border: 10px solid #fff;
+    border-radius: 5px;
+    margin: auto;
+    background: #fff;
+  }
+  .userProfileView .image-upload img{
+    max-width: 100%;
+  }
+
+  #provisionalformctn #selectprovisionalprofile.form-control{
+    padding: 0.5rem 1.5rem;
+  }
+  
+/*--- Phone with country ---*/
+.phonewithcountrycode .form-control:focus {
+	box-shadow: none;
+}
+.phonewithcountrycode select.countrylist {
+	border-right: 0 !important;
+}
+.phonewithcountrycode input.phonenumber {
+	border-left: 0 !important;
+}
+.phonewithcountrycode .select2.select2-container {
+	font-size: .875rem;
+	max-width: 96px;
+}
+.phonewithcountrycode .select2-container--default .select2-selection--single {
+	height: calc(1.5em + 0.53rem + 3px);
+    padding: 0.25rem 0rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0;
+	border: 1px solid #ced4da;
+	color: #495057;
+}
+.phonewithcountrycode .select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 1.5;
+}
+.phonewithcountrycode .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: calc(1.5em + 0.5rem + 2px);
+}
+input.select2-search__field {
+    height: 1.5em !important;
+}
+.select2-results__option {
+    font-size: .875rem;
+}
+.select2-container *:focus {
+	outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.phonewithcountrycode input::-webkit-outer-spin-button,
+.phonewithcountrycode input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.phonewithcountrycode input[type=number] {
+  -moz-appearance: textfield;
+}
+/*--- End Phone with country ---*/
+
+/*--- form.io upload file size text in on line ---*/
+.list-group-item .row [class*='col-md'] {
+    padding-right: 0px;
+    padding-left: 0px;
+}

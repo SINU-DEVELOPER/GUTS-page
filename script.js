@@ -8608,7 +8608,7 @@ $(".carousel3").flickity({
   pageDots: false,
   autoPlay: true,
   wrapAround: true,
-  groupCells: 3, // Show 3 logos per slide
+  groupCells: 2, // Show 3 logos per slide
   setGallerySize: false, // Prevent height issues
 });
 $(".carousel4").flickity({

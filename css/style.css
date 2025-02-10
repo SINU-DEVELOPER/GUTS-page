@@ -54,7 +54,6 @@ a:hover {
   font-weight: 500 !important;
 }
 
-
 .select2-container .select2-selection--single {
   box-sizing: border-box;
   cursor: pointer;
@@ -311,13 +310,11 @@ span.rule_banner {
 
 /* famous faces */
 
-.famous-faces-container
-{
+.famous-faces-container {
   position: relative;
 }
 
-.famous-faces-text
-{
+.famous-faces-text {
   position: absolute;
   bottom: 10px;
   left: 0;
@@ -327,13 +324,7 @@ span.rule_banner {
   font-weight: 800;
 }
 
-
 /* banner image updation for mobile  */
-
-
-
-
-
 
 /* Mobile-specific styles for truncation */
 @media (max-width: 768px) {
@@ -344,8 +335,7 @@ span.rule_banner {
     text-overflow: ellipsis;
   }
 
-  .craft_your_path .card
-  {
+  .craft_your_path .card {
     height: 100px;
     margin: 10px 15px;
   }
@@ -353,26 +343,21 @@ span.rule_banner {
   .card-body {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center;     
-    height: 100%;            
+    justify-content: center;
+    align-items: center;
+    height: 100%;
   }
-  
+
   .card {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center;     
+    justify-content: center;
+    align-items: center;
   }
-  .craft_your_path .card-tite
-  {
+  .craft_your_path .card-tite {
     color: #243873;
     font-weight: 800;
   }
-
-
-
-
 }
 
 .modal-alert h2 {
@@ -625,7 +610,6 @@ section.geeta_uni_awards img {
   }
 
   .aboutUs_section .video_sctn img {
-    
   }
 }
 
@@ -693,8 +677,7 @@ section.geeta_uni_awards img {
 
 /* craft your path section start */
 
-.craft-btn
-{
+.craft-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -706,8 +689,6 @@ section.geeta_uni_awards img {
   transition: 0.3s ease-in-out;
   filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(-10deg);
 }
-
-
 
 .carousel-control-prev {
   left: -100px; /* Move left outside */
@@ -737,11 +718,6 @@ section.geeta_uni_awards img {
 }
 
 /* craft section end*/
-
-
-
-
-
 
 /* craft your path section end  */
 
@@ -856,16 +832,13 @@ section.geeta_uni_awards img {
   .carousel-control-prev {
     left: -30px;
   }
-  
+
   .carousel-control-next {
     right: -30px;
   }
-  .craft-btn
-{
-  
-  top: 50%;
-  
-}
+  .craft-btn {
+    top: 50%;
+  }
 }
 
 /* bridge the gap section end  */
@@ -1611,7 +1584,7 @@ section.addmission_process_section .timeline-content p {
 
 @media (max-width: 768px) {
   .carousel-cell3 img {
-    width: 100px !important; 
+    width: 180px !important;
     height: auto; /* Maintain aspect ratio */
   }
 }
@@ -1943,13 +1916,12 @@ section.scholarship-section .schoal_one h2 {
   text-transform: uppercase;
   text-align: center;
   width: fit-content;
-  font-family: 'Sapient', sans-serif;
+  font-family: "Sapient", sans-serif;
 }
 section.scholarship-section .schoal_one h2 > span {
   font-size: 34px;
   font-weight: 700;
-  font-family: 'Sapient', sans-serif;
-
+  font-family: "Sapient", sans-serif;
 }
 section.scholarship-section .color-grey {
   color: rgba(255, 255, 255, 0.59);
@@ -2111,20 +2083,16 @@ section.scholarship-section .zero-tution {
 @media (min-width: 0) and (max-width: 767.98px) {
   section.scholarship-section .schoal_one {
     padding: 40px 15px 0;
-  font-family: 'Sapient', sans-serif;
-
+    font-family: "Sapient", sans-serif;
   }
   section.scholarship-section .schoal_one h2 {
     color: #fff;
     font-size: 20px;
-  font-family: 'Sapient', sans-serif;
-
-    
+    font-family: "Sapient", sans-serif;
   }
   section.scholarship-section .schoal_one h2 > span {
     font-size: 24px;
-  font-family: 'Sapient', sans-serif;
-
+    font-family: "Sapient", sans-serif;
   }
   section.scholarship-section .scho-text h3 {
     font-size: 26px;
@@ -2197,7 +2165,6 @@ section.scholarship-section .zero-tution {
   .key_highlightSection {
     padding: 60px 0 20px;
   }
-  
 
   .timeline-step:after {
     background: #000;

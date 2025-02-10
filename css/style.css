@@ -696,7 +696,7 @@ section.geeta_uni_awards img {
 .craft-btn
 {
   position: absolute;
-  top: 70%;
+  top: 50%;
   transform: translateY(-50%);
   border: none;
   background-color: transparent;
@@ -717,16 +717,27 @@ section.geeta_uni_awards img {
   right: -100px; /* Move right outside */
 }
 
+/* craft section start*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(26%) sepia(97%) saturate(5163%) hue-rotate(212deg)
+    brightness(94%) contrast(92%);
+  font-size: 1.5rem;
+}
 
-.craft_your_path .card
-{
+.craft_your_path .card {
   background-color: #d3d3d3be;
   border: none;
-  height: 250px;
+  height: 300px !important;
+  padding: 5px 5px !important;
   display: flex;
   justify-content: center;
-  align-items: left;
+  align-items: center;
+  border-radius: 10px;
 }
+
+/* craft section end*/
+
 
 
 
@@ -852,7 +863,7 @@ section.geeta_uni_awards img {
   .craft-btn
 {
   
-  top: 60%;
+  top: 50%;
   
 }
 }
@@ -1598,6 +1609,12 @@ section.addmission_process_section .timeline-content p {
   margin-top: 25px;
 }
 
+@media (max-width: 768px) {
+  .carousel-cell3 img {
+    width: 100px !important; 
+    height: auto; /* Maintain aspect ratio */
+  }
+}
 section.addmission_process_section
   .timeline-steps
   .timeline-content

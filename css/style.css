@@ -426,14 +426,9 @@ span.rule_banner {
 /* key highlight section start  */
 
 .key_highlightSection {
-  padding: 3% 0%;
+  padding: 5% 0%;
 }
-.key_highlightSection .key_box {
-  text-align: left;
-  /* border-left: 2px solid #0A0240; */
-  padding-left: 90px;
-  height: 100%;
-}
+
 .key_highlightSection .key_box h2 {
   color: #f07e1d;
   font-size: 34px;
@@ -446,7 +441,7 @@ span.rule_banner {
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .key_highlightSection {
-    padding: 10% 0%;
+    /* padding: 10% 0%; */
   }
 }
 

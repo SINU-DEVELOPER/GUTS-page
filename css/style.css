@@ -426,7 +426,7 @@ span.rule_banner {
 /* key highlight section start  */
 
 .key_highlightSection {
-  padding: 5% 0%;
+  padding: 2% 1% 4% 1%;
 }
 
 .key_highlightSection .key_box h2 {
@@ -439,11 +439,7 @@ span.rule_banner {
   font-size: 18px;
   font-weight: 500;
 }
-@media (min-width: 320px) and (max-width: 480px) {
-  .key_highlightSection {
-    /* padding: 10% 0%; */
-  }
-}
+
 
 /* key highlight section end  */
 
@@ -686,11 +682,11 @@ section.geeta_uni_awards img {
 }
 
 .carousel-control-prev {
-  left: -100px; /* Move left outside */
+  left: -120px; /* Move left outside */
 }
 
 .carousel-control-next {
-  right: -100px; /* Move right outside */
+  right: -120px; /* Move right outside */
 }
 
 /* craft section start*/
@@ -704,12 +700,14 @@ section.geeta_uni_awards img {
 .craft_your_path .card {
   background-color: #d3d3d3be;
   border: none;
-  height: 300px !important;
-  padding: 5px 5px !important;
+  height: 250px !important;
+  padding: 15px 0px !important;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+
+    
 }
 
 /* craft section end*/
@@ -1035,7 +1033,7 @@ section.geeta_uni_awards img {
   z-index: 2200000;
   right: 0;
   box-shadow: 0 0 10px #ddd;
-  background: #000;
+  background: #f07e1d;
   border-radius: 8px 0px 0px 8px;
   width: 40px;
   height: 100px;
@@ -1579,8 +1577,8 @@ section.addmission_process_section .timeline-content p {
 
 @media (max-width: 768px) {
   .carousel-cell3 img {
-    width: 180px !important;
-    height: auto; /* Maintain aspect ratio */
+    width: 150px !important;
+    height: 78px !important; /* Maintain aspect ratio */
   }
 }
 section.addmission_process_section
@@ -1892,7 +1890,7 @@ section.geeta_oppportunities_section .carousel-cell4 img {
 /*scholarship css starts*/
 section.scholarship-section {
   background: #fff;
-  padding-bottom: 90px;
+  padding-bottom: 50px;
 }
 section.scholarship-section .achoalr-content {
   border-radius: 0px 0px 50px 50px;
@@ -2155,11 +2153,8 @@ section.scholarship-section .zero-tution {
   }
   section.key_highlightSection * {
     text-align: center;
-    font-size: 12px;
   }
-  .key_highlightSection {
-    padding: 60px 0 20px;
-  }
+
 
   .timeline-step:after {
     background: #000;
@@ -2181,9 +2176,7 @@ section.scholarship-section .zero-tution {
   section.addmission_process_section .timeline-content p {
     text-align: left;
   }
-  .key_highlightSection .key_box h2 {
-    font-size: 28px;
-  }
+  
 }
 
 .header .logo {

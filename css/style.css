@@ -95,11 +95,11 @@ section.banner_sections .banner_form {
 section.banner_sections .banner_carousel,
 section.banner_sections .carousel-inner,
 section.banner_sections .carousel-item {
-  height: 100%;
+  height: 100vh;
 }
 section.banner_sections .carousel-item {
   background-size: cover !important;
-  background-position: top center !important;
+  background-position: bottom center !important;
 }
 .twot_cnot img {
   height: 40px;
@@ -477,7 +477,7 @@ section.geeta_uni_awards img {
 
 .aboutUs_section {
   position: relative;
-  padding: 3% 0% 0;
+  padding: 8% 0% 0;
 }
 .aboutUs_section h2 {
   font-weight: bold;
@@ -2392,3 +2392,5 @@ section.scholarship-section .zero-tution {
     font-size: 13px;
   }
 }
+
+
